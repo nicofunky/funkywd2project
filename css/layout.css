@@ -14,7 +14,7 @@
 
 body {
 	background-image: linear-gradient(#A6FCFC,#0e7575); 
-	max-width: 100%; 
+	width: auto; 
 	height: auto; 
 	margin: 0 auto; 
 	background-repeat: no-repeat; 
@@ -101,6 +101,11 @@ hr {
 	background-image: url("../images/redwave.gif");
 }
 
+.lol {
+	border-radius: 50%;
+	width: 50%;
+	left: 50%;
+}
 
 /*------------------ code specificallly for photo1.html --------*/
 .move {height:auto ;
@@ -113,6 +118,11 @@ hr {
 #move3  {height:auto ;
 		width: 100%;
 		align-content: center;} 
+
+.move4 {height: auto ;
+		width: 50%;
+		align-content: center;
+		}
 
 .two { clear: right; }
 
@@ -216,6 +226,7 @@ a {
 	color:#A6FCFC;
 	 padding: 20px;
 	}
+.nopad {padding: 0px;}
 
 .no {background-color: rgba(0, 0, 0, 0)}
 .no:hover {background-color: rgba(0, 0, 0, 0)}
@@ -300,6 +311,73 @@ a {
 #item9 {grid-area: photoi; width: 40%; height: 40%;}
 
 #item10 {grid-area: photoj; width: 40%; height: 40%;}
+
+#mygrid2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows:  200px 200px 200px 200px  ; 
+    grid-template-areas: 
+		"photoa photob photoc"
+		"photod photoe photof"
+		"photog photoh photoi"
+		"photoj photok photol" ;
+    grid-gap: 5%;
+    padding: 5%;
+}
+
+#item11 {grid-area: photoa; width: 20%; }
+
+#item21 {grid-area: photob; width: 20%; }
+
+#item31 {grid-area: photoc; width: 20%; }
+
+#item41 {grid-area: photod; width: 20%; }
+
+#item51 {grid-area: photoe; width: 20%; }
+
+#item61 {grid-area: photof; width: 20%; }
+
+#item71 {grid-area: photog; width: 20%; }
+
+#item81 {grid-area: photoh; width: 20%; }
+
+#item91 {grid-area: photoi; width: 20%; }
+
+#item101 {grid-area: photoj; width: 20%; }
+
+#item111 {grid-area: photok; width: 20%; }
+
+#item121 {grid-area: photol; width: 20%; }
+
+#mygrid3 {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-rows:  85% 50px  ; 
+    grid-template-areas: 
+		"photoa photob photoc photod photoe"
+		"photof photog photoh photoi photoj";
+    grid-gap: 5%;
+    margin-left: 3.5%;
+
+}
+
+#item12 {grid-area: photoa; width: 40%; height: 40%;}
+
+#item22 {grid-area: photob; width: 40%; height: 40%;}
+
+#item32 {grid-area: photoc; width: 40%; height: 40%;}
+
+#item42 {grid-area: photod; width: 40%; height: 40%;}
+
+#item52 {grid-area: photoe; width: 40%; height: 40%;}
+
+#item62 {grid-area: photof; width: 40%; height: 40%;}
+
+#item72 {grid-area: photog; width: 40%; height: 40%;}
+#item82 {grid-area: photoh;}
+#item92 {grid-area: photoi;}
+#item102 {grid-area: photoj;}
+
 
 
 /* -------------------- MEDIA QUERIES always at the end -------------------- */
