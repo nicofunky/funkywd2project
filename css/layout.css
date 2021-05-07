@@ -53,6 +53,13 @@ h2 {
 	font-size: 25px; 
 	padding: 1% 1% 1% 10%;}
 
+.h21:hover {
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.itb.ie%2FLocation%2Fimages%2FAerialShotMay2019.jpg&f=1&nofb=1);
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
 h3 {
 	font-family: 'Raleway', sans-serif; 
 	color: #A6FCFC; 
@@ -127,6 +134,31 @@ hr {
 .two { clear: right; }
 
 /*-------------------- fourm stuff -----------------------------*/
+
+.b1 {
+	width: 100%;
+	padding: 2%;
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgba(42, 125, 105, .6);
+	font-size: 350%;
+	color: #A6FCFC;
+	align-self: center;
+	border: 2px solid #F50019; 
+	position: absolute;
+	float: left;
+	margin: auto;
+	top: 58%;
+
+
+}
+
+.b1:hover {
+	background-color: rgba(42, 125, 105, .9);
+}
+
+#output {
+	display: none;
+}
 
 form, .results {
 	position: sticky;
@@ -232,11 +264,11 @@ a {
 .no:hover {background-color: rgba(0, 0, 0, 0)}
 
 .bc1 {
-	background: rgba(36, 171, 189, .3);	
+	background: rgba(12, 80, 80, .3);	
 }
 
 .bc2 {
-	background: rgba(23, 165, 165, .6);
+	background: rgba(12, 80, 80, .6);
 }
 
 .under:hover {
@@ -315,7 +347,7 @@ a {
 #mygrid2 {
     display: grid;
     grid-template-columns: 33% 33% 33% ;
-    grid-template-rows:  200px 200px 200px 200px  ; 
+    grid-template-rows:  300px 300px 300px 300px  ; 
     grid-template-areas: 
 		"photoa photob photoc"
 		"photod photoe photof"
@@ -323,31 +355,32 @@ a {
 		"photoj photok photol" ;
     grid-gap: 5%;
     padding: 5%;
+    margin: 3.5%;
 }
 
-#item11 {grid-area: photoa; width: 20%; }
+#item11 {grid-area: photoa; width: 30%; }
 
-#item21 {grid-area: photob; width: 20%; }
+#item21 {grid-area: photob; width: 30%; }
 
-#item31 {grid-area: photoc; width: 20%; }
+#item31 {grid-area: photoc; width: 30%; }
 
-#item41 {grid-area: photod; width: 20%; }
+#item41 {grid-area: photod; width: 30%; }
 
-#item51 {grid-area: photoe; width: 20%; }
+#item51 {grid-area: photoe; width: 30%; }
 
-#item61 {grid-area: photof; width: 20%; }
+#item61 {grid-area: photof; width: 30%; }
 
-#item71 {grid-area: photog; width: 20%; }
+#item71 {grid-area: photog; width: 30%; }
 
-#item81 {grid-area: photoh; width: 20%; }
+#item81 {grid-area: photoh; width: 30%; }
 
-#item91 {grid-area: photoi; width: 20%; }
+#item91 {grid-area: photoi; width: 30%; }
 
-#item101 {grid-area: photoj; width: 20%; }
+#item101 {grid-area: photoj; width: 30%; }
 
-#item111 {grid-area: photok; width: 20%; }
+#item111 {grid-area: photok; width: 30%; }
 
-#item121 {grid-area: photol; width: 20%; }
+#item121 {grid-area: photol; width: 30%; }
 
 #mygrid3 {
     display: grid;
